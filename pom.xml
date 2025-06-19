@@ -158,12 +158,6 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- Dependencia del servicio de órdenes -->
-        <dependency>
-            <groupId>com.tienda</groupId>
-            <artifactId>ordenes-service</artifactId>
-            <version>1.0.0</version>
-        </dependency>
 
         <!-- JWT -->
         <dependency>
