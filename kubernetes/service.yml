@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: productos-service-service
+  name: productos-service
 spec:
   selector:
     app: productos-service
@@ -9,4 +9,4 @@ spec:
     - protocol: TCP
       port: 8080
       targetPort: 8080
-  type: LoadBalancer
+  type:  ClusterIP
